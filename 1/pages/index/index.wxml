@@ -1,0 +1,25 @@
+<!--miniprogram/pages/robot/robot.wxml-->
+<text>\n</text>
+<text>\n</text>
+<view class="bf">小仙女的</view>
+
+<view class="bg">专属男友</view>
+<text>\n</text>
+<text>\n</text>
+<text>\n</text>
+<text>\n</text>
+<text>\n</text>
+<text>\n</text>
+<text>\n</text>
+<text>\n</text>
+<view class="ans">{{answer}}</view>
+<view class="b" style="opacity:{{0.8}}" >
+    <image class="bg-image" mode="scaleToFill"></image>
+</view>
+<text>\n</text>
+<view class="f">
+<input class="inputindex" placeholder="小可爱有何吩咐呢~" placeholder-class='iconfont icon-sousuo mid-font ' placeholder-style="font-size:30px; color:grey;" style="font-weight:bolder; font-size:30px; color:#000000; padding-left: 30rpx; padding-right: 30rpx" bindinput="flower"> </input>
+</view>
+<button class="in" bindtap="send">哼，该你说啦！</button>
+
+
